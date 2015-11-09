@@ -4,9 +4,6 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.net.Socket;
 
-/**
- * Created by Adam on 11/8/2015.
- */
 public class ClientThread implements Runnable {
 
     Thread runner;
