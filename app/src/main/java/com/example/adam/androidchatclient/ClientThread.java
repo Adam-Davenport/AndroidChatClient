@@ -21,7 +21,7 @@ public class ClientThread implements Runnable {
         try
         {
             //Creating a socket on the local host with port 8189
-            socket = new Socket("10.0.0.4", 8189);
+            socket = new Socket("10.0.0.3", 8189);
             //Implementing a way to output text to the server
             out = new DataOutputStream(socket.getOutputStream());
             //Input to the client

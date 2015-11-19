@@ -40,11 +40,12 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="387dp"
-            android:id="@+id/editText2"
+            android:id="@+id/chatPane"
             android:layout_gravity="center_horizontal|top"
             android:gravity="top|left"
             android:editable="false"
-            android:scrollIndicators="right"/>
+            android:scrollIndicators="right"
+            />
 
         <Button
             android:layout_width="wrap_content"
